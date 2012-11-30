@@ -5,8 +5,47 @@
 	<title></title>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
     <script src="instafollow.js"></script>
+    <style type="text/css">
+    #instaFollow {
+        background-color: #49AFCD;
+        background-image: url("instagram_icon.png");
+        background-position: 7px 6px;
+        background-repeat: no-repeat;
+        background-size: 30px auto;
+        border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+        border-width: 1px;
+        box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2) inset, 0 1px 2px rgba(0, 0, 0, 0.05);
+        color: #FFFFFF;
+        cursor: pointer;
+        display: inline-block;
+        font-size: 14px;
+        line-height: 20px;
+        padding: 10px 12px 10px 40px;
+        text-align: center;
+        text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+        vertical-align: middle;
+    }
+    #instaFollow:hover {
+        background-position: 7px 0;
+        text-decoration: none;
+        transition: background-position 0.1s linear 0s;
+        background-color: #2F96B4;
+        color: #FFFFFF;
+    }
+    #instaFollow:active {
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15) inset, 0 1px 2px rgba(0, 0, 0, 0.05);
+        outline: 0 none;
+    }
+
+    .container{
+        margin:100px auto;
+        width:200px;
+    }
+    </style>
 </head>
-<body>
-	<button id="instaFollow">Follow JelledWeb</button>
-</body>
+    <body>
+        <div class="container">
+            <button id="instaFollow">Follow JelledWeb</button>
+        </div>
+    </body>
 </html>
