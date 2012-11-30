@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="instafollow.js"></script>
+    <script type="text/javascript">
+        $(function(){
+            instaFollowRequest(instaUserID, instaUserName);
+        });
+    </script>
+    <style type="text/css">
+        body{
+            margin:0;
+            background-color:#3F729B;
+            text-align:center;
+            color:#3F729B;
+        }
+        #response{
+            background-color: #F7F7F7;
+            border-left: 1px solid #C3CFD9;
+            border-right: 1px solid #C3CFD9;
+            box-shadow: 0 1px 0 rgba(0, 0, 0, 0.05);
+            padding-right: 0;
+            width: 215px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+        <br /><br />
+        <div id="response">
+        </div>
+</body>
+</html>
