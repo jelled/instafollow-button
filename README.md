@@ -19,7 +19,7 @@ Variables:
 Set the following variables in "instafollow.js"
 
 1. instaUserName: set to your instagram username
-2. instaUserID: set to your instagram numeric id. You can look it up here: http://instagram.com/developer/
+2. instaUserID: set to your instagram numeric id. You can look it up here: http://jelled.com/instagram/lookup-user-id
 3. instaClientID: the client id of the api client you registered above in step 1.
 4. instaRedirectURI: set to the location of the "instafollow-redirect-uri.html" file. For example: http://www.yoursite.com/instafollow-redirect-uri.html
 
